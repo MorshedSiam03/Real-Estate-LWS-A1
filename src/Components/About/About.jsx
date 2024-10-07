@@ -51,7 +51,7 @@ export default function About() {
                   <div className="w-full px-2 sm:w-1/2 sm:px-4 lg:px-2 xl:px-4">
                     <div className="mb-4 sm:mb-8 sm:h-[220px] md:h-[346px] lg:mb-4 lg:h-[225px] xl:mb-8 xl:h-[310px]">
                       <img
-                        src="src/assets/images/about/about-image-02.jpg"
+                        src="https://raw.githubusercontent.com/MorshedSiam03/Real-Estate-LWS-A1/refs/heads/main/src/assets/images/about/about-image-02.jpg"
                         alt="about image"
                         className="h-full w-full object-cover object-center"
                       />

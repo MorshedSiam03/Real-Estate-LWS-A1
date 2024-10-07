@@ -7,6 +7,7 @@ import Footer from "./Components/Footer/Footer";
 import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/Navbar/Navbar";
 import Properties from "./Components/Properties/Properties";
+import Team from "./Components/Team/Team";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
       <About/>
       <CTA/>
       <FAQ/>
+      <Team/>
       <Contact/>
       <Footer/>
     </div>

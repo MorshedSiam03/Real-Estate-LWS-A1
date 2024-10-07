@@ -10,7 +10,7 @@ export default function Navbar() {
                 className="navbar-logo block w-60 max-w-full px-4"
               >
                 <img
-                  src="/src/assets/images/logo/logo.svg"
+                  src="https://raw.githubusercontent.com/MorshedSiam03/Real-Estate-LWS-A1/refs/heads/main/src/assets/images/logo/logo.svg"
                   alt="logo"
                   className="header-logo h-12"
                 />

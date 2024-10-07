@@ -7,7 +7,7 @@ export default function Team() {
         id: 1,
         name: "Melissa Tatcher",
         role: "Marketing Expert",
-        image: "src/assets/images/team/team-01.png",
+        image: "https://raw.githubusercontent.com/MorshedSiam03/Real-Estate-LWS-A1/refs/heads/main/src/assets/images/team/team-01.png",
       },
       {
         id: 2,

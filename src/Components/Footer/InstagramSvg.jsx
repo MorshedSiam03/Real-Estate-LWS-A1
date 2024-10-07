@@ -1,7 +1,7 @@
 
 export default function InstagramSvg() {
   return (
-    <div>
+    <>
       <a href="javascript:void(0)" className="px-3 text-gray-7 hover:text-white">
                 <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"
                   className="fill-current">
@@ -13,6 +13,6 @@ export default function InstagramSvg() {
                     d="M16.0276 4.96777C15.6432 4.96777 15.318 5.29304 15.318 5.67745C15.318 6.06186 15.6432 6.38713 16.0276 6.38713C16.412 6.38713 16.7373 6.06186 16.7373 5.67745C16.7373 5.29304 16.4416 4.96777 16.0276 4.96777Z" />
                 </svg>
               </a>
-    </div>
+    </>
   )
 }

@@ -1,8 +1,25 @@
+import About from "./Components/About/About";
+import Contact from "./Components/Contact/Contact";
+import CTA from "./Components/CTA/CTA";
+import FAQ from "./Components/FAQ/FAQ";
+import Features from "./Components/Features/Features";
+import Footer from "./Components/Footer/Footer";
+import Hero from "./Components/Hero/Hero";
+import Navbar from "./Components/Navbar/Navbar";
+import Properties from "./Components/Properties/Properties";
 
 export default function App() {
   return (
     <div>
-      <h1>Hellow Siam</h1>
+      <Navbar/>
+      <Hero/>
+      <Features/>
+      <Properties/>
+      <About/>
+      <CTA/>
+      <FAQ/>
+      <Contact/>
+      <Footer/>
     </div>
   )
 }

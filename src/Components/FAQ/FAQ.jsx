@@ -1,3 +1,4 @@
+import FAQtext from "./FAQtext";
 import QuestionSvg from "./QuestionSvg";
 import VarticalDot from "./VarticalDot";
 import VarticalDotBottom from "./VarticalDotBottom";
@@ -26,32 +27,27 @@ export default function FAQ() {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 lg:w-1/2">
               <div className="mb-12 flex lg:mb-[70px]">
-
                 <QuestionSvg />
                 <div className="w-full">
-                  <h3 className="mb-6 text-xl font-semibold text-dark dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                    Is TailGrids Well-documented?
-                  </h3>
-                  <p className="text-base text-body-color dark:text-dark-6">
-                    It takes 2-3 weeks to get your first blog post ready. That
+                  <FAQtext
+                    title="Is TailGrids Well-documented?"
+                    description="It takes 2-3 weeks to get your first blog post ready. That
                     includes the in-depth research & creation of your monthly
                     content ui/ux strategy that we do writing your first blog
-                    post.
-                  </p>
+                    post."
+                  />
                 </div>
               </div>
               <div className="mb-12  flex lg:mb-[70px]">
                 <QuestionSvg />
                 <div className="w-full">
-                  <h3 className="mb-6 text-xl font-semibold text-dark dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                    Is TailGrids Well-documented?
-                  </h3>
-                  <p className="text-base text-body-color dark:text-dark-6">
-                    It takes 2-3 weeks to get your first blog post ready. That
+                  <FAQtext
+                    title="Is TailGrids Well-documented?"
+                    description="It takes 2-3 weeks to get your first blog post ready. That
                     includes the in-depth research & creation of your monthly
                     content ui/ux strategy that we do writing your first blog
-                    post.
-                  </p>
+                    post."
+                  />
                 </div>
               </div>
             </div>
@@ -59,29 +55,25 @@ export default function FAQ() {
               <div className="mb-12 flex  lg:mb-[70px]">
                 <QuestionSvg />
                 <div className="w-full">
-                  <h3 className="mb-6 text-xl font-semibold text-dark dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                    Is TailGrids Well-documented?
-                  </h3>
-                  <p className="text-base text-body-color dark:text-dark-6">
-                    It takes 2-3 weeks to get your first blog post ready. That
+                  <FAQtext
+                    title="Is TailGrids Well-documented?"
+                    description="It takes 2-3 weeks to get your first blog post ready. That
                     includes the in-depth research & creation of your monthly
                     content ui/ux strategy that we do writing your first blog
-                    post.
-                  </p>
+                    post."
+                  />
                 </div>
               </div>
               <div className="mb-12  flex lg:mb-[70px]">
                 <QuestionSvg />
                 <div className="w-full">
-                  <h3 className="mb-6 text-xl font-semibold text-dark dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                    Is TailGrids Well-documented?
-                  </h3>
-                  <p className="text-base text-body-color dark:text-dark-6">
-                    It takes 2-3 weeks to get your first blog post ready. That
+                  <FAQtext
+                    title="Is TailGrids Well-documented?"
+                    description="It takes 2-3 weeks to get your first blog post ready. That
                     includes the in-depth research & creation of your monthly
                     content ui/ux strategy that we do writing your first blog
-                    post.
-                  </p>
+                    post."
+                  />
                 </div>
               </div>
             </div>

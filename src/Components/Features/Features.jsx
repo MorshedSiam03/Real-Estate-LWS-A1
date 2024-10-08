@@ -1,3 +1,4 @@
+import FreatureText from "./FreatureText";
 import GiftSvg from "./GiftSvg";
 import LearnMore from "./LearnMore";
 import PropertySvg from "./PropertySvg";
@@ -33,14 +34,12 @@ function Features() {
                   <RotatingBg />
                   <GiftSvg />
                 </div>
-                <h4 className="mb-3 text-xl font-bold text-dark dark:text-white">
-                  Premium Property Listings
-                </h4>
-                <p className="mb-8 text-body-color dark:text-dark-6 lg:mb-9">
-                  Discover an array of hand-picked properties that meet the
-                  highest standards of luxury and comfort.
-                </p>
-                <LearnMore/>
+                <FreatureText
+                  title="Premium Property Listings"
+                  description="Discover an array of hand-picked properties that meet the
+                  highest standards of luxury and comfort."
+                />
+                <LearnMore />
               </div>
             </div>
             <div className="w-full px-4 md:w-1/2 lg:w-1/4">
@@ -49,14 +48,12 @@ function Features() {
                   <RotatingBg />
                   <PropertySvg />
                 </div>
-                <h4 className="mb-3 text-xl font-bold text-dark dark:text-white">
-                  Personalized Property Matching
-                </h4>
-                <p className="mb-8 text-body-color dark:text-dark-6 lg:mb-9">
-                  Our advanced matching system pairs you with properties that
-                  align with your specific needs and desires.
-                </p>
-                <LearnMore/>
+                <FreatureText
+                  title="Personalized Property Matching"
+                  description="Our advanced matching system pairs you with properties that align with your specific needs and desires."
+                />
+
+                <LearnMore />
               </div>
             </div>
             <div className="w-full px-4 md:w-1/2 lg:w-1/4">
@@ -65,14 +62,12 @@ function Features() {
                   <RotatingBg />
                   <SupportSvg />
                 </div>
-                <h4 className="mb-3 text-xl font-bold text-dark dark:text-white">
-                  Expert Guidance and Support
-                </h4>
-                <p className="mb-8 text-body-color dark:text-dark-6 lg:mb-9">
-                  Benefit from the expertise of our dedicated team of real
-                  estate professionals.
-                </p>
-                <LearnMore/>
+                <FreatureText
+                  title="Expert Guidance and Support"
+                  description=" Benefit from the expertise of our dedicated team of real
+                  estate professionals."
+                />
+                <LearnMore />
               </div>
             </div>
             <div className="w-full px-4 md:w-1/2 lg:w-1/4">
@@ -81,15 +76,13 @@ function Features() {
                   <RotatingBg />
                   <VirtualToursSvg />
                 </div>
-                <h4 className="mb-3 text-xl font-bold text-dark dark:text-white">
-                  Virtual Tours
-                </h4>
-                <p className="mb-8 text-body-color dark:text-dark-6 lg:mb-9">
-                  Take advantage of our cutting-edge virtual tours and 3D
+                <FreatureText
+                  title="Virtual Tours"
+                  description="Take advantage of our cutting-edge virtual tours and 3D
                   walkthroughs to explore properties from the comfort of your
-                  home.
-                </p>
-                <LearnMore/>
+                  home."
+                />
+                <LearnMore />
               </div>
             </div>
           </div>
